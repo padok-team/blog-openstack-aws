@@ -15,3 +15,8 @@ variable "instance_type" {
   type    = string
   default = "t2.xlarge"
 }
+
+variable "instance_root_volume_size" {
+  type    = number
+  default = 100
+}

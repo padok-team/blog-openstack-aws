@@ -28,6 +28,10 @@ resource "aws_instance" "openstack" {
   private_ip = cidrhost(aws_subnet.public.cidr_block, count.index + 10)
   key_name   = aws_key_pair.deployer.key_name
 
+  root_block_device {
+    volume_size = var.instance_root_volume_size
+  }
+
   vpc_security_group_ids = [
     aws_security_group.allow_public_ssh.id
   ]
