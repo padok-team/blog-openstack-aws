@@ -1,0 +1,2 @@
+aws_region     = "eu-west-3"
+ssh_public_key = "<YOUR_PUBLIC_SSH_KEY>"
