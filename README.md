@@ -2,7 +2,7 @@
 
 ## Blog post
 
-- **FR:** TBD
+- **FR:** https://www.padok.fr/blog/openstack-cloud-prive
 - **EN:** TBD
 
 ## Requirements
