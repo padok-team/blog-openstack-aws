@@ -26,7 +26,6 @@ resource "aws_internet_gateway" "self" {
   }
 }
 
-# Step 4: Add routes through internet gateway to public subnet
 resource "aws_route_table" "public" {
   vpc_id = aws_vpc.self.id
 
